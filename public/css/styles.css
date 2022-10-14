@@ -109,7 +109,7 @@ main{
 }
 .sub-main-descripcion{
     position: relative;
-    padding: 0 15px 0 15px; 
+    padding: 0 15px 0 15px;  
 }
 .productos {
     width: 100%;
@@ -166,7 +166,7 @@ main{
     position: absolute; 
     right: 20px; 
     top: -15px;  
-    transition: all 450ms ; 
+    transition: all 450ms ;
 }
 
 footer {

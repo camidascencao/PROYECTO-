@@ -11,7 +11,7 @@ app.use(express.static(path.resolve(__dirname, './public')));
 
 /* Routes */
 app.get("/", (req, res) => {
-    res.sendFile(path.resolve(__dirname,"src/views/home.html"));
+    res.sendFile(path.resolve(__dirname,"src/views/home.html")); 
 })
 
 app.get("/register", (req, res) => {
